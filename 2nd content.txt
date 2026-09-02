@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main()
-    int speed=90;
-    {if(speed==80)
+    {int speed=90;
+    if(speed>=90)
     {printf("normal speed");
     }
     else
     {printf("overspeed");}
+    return 0;
     }
